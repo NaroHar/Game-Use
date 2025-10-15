@@ -35,6 +35,10 @@ body {
         font-size: 15px;
         font-weight: bold;
     }
+
+    .btn-box {
+        height: 3rem;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -62,9 +66,13 @@ body {
         font-size: 15px;
         font-weight: bold;
     }
+
+    .btn-box {
+        height: 4rem;
+    }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     h1 {
         font-size: 3rem;
         line-height: 60px;
@@ -88,6 +96,10 @@ body {
         border-radius: 20px;
         font-size: 20px;
         font-weight: bold;
+    }
+
+    .btn-box {
+        height: 5rem;
     }
 }
 
@@ -124,8 +136,4 @@ body {
 
 .game-over {
     background-color: red;
-}
-
-.btn-box {
-    height: 5rem;
 }
