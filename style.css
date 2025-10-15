@@ -1,0 +1,82 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 20%;
+    border: 5px solid white;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: rgb(214, 2, 214);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pressed {
+    background-color: gray;
+    box-shadow: 0 0 20px white;
+}
+
+.game-over {
+    background-color: red;
+}
+
+#start-game {
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#restart-game {
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-box {
+    height: 5rem;
+}
